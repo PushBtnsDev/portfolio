@@ -1,4 +1,6 @@
 body {
-  background-color: blanchedalmond;
+  background: url(personal_website_icon.svg);
+  background-repeat: no-repeat;
+  height: 1141px;
 }
 
