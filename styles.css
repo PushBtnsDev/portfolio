@@ -3,22 +3,21 @@
   padding: 0;
 }
 
-
 body {
   overflow-x: hidden;
-  overflow-y: scroll;
 }
 
 .hero-background {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
   position: relative;
-  width: 100vw;
-  margin-left: -250px;
 }
 
-.hero-background > * {
+.hero-background div {
   position: absolute;
-  width: 140vw;
-  height: 80em;
+  height: 80vh;
+  
   /* bottom: 0; */
   /* left: 0; */
   /* background: black; */
@@ -27,7 +26,7 @@ body {
 .hero-background div img {
   position: absolute;
   bottom: 0;
-  width: 140vw;
+  width: 100vw;
 }
 
 .rectangle-1 {
