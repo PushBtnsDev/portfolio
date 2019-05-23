@@ -84,6 +84,14 @@ body {
   background-image: linear-gradient(180deg, #275A0B 0%, #013101 100%);
 }
 
+.skills-icon {
+  height: 100px;
+}
+
+.ruby-icon {
+  background-image: url("./img/vector_icons/Ruby_logo.svg");
+}
+
 .portfolio-background-1 {
   height: 100vh;
   background-image: linear-gradient(180deg, #1BABFF 0%, #61C5FF 100%);
