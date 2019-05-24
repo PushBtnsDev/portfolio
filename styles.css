@@ -4,12 +4,30 @@
 }
 
 html {
-  font-size: 2.5vw;
+  font-size: 20px;
 }
 
 body {
   overflow-x: hidden;
   height: 200vh;
+}
+
+h2, h3 {
+  font-family: 'Didact Gothic', sans-serif;
+  font-weight: normal;
+  color: #EEEEEE;
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  letter-spacing: 0.07em;
+  line-height: 222%;
 }
 
 .hero-background {
@@ -63,21 +81,6 @@ body {
   height: 80%;
 }
 
-.about-me-content h2 {
-  font-family: 'Didact Gothic', sans-serif;
-  font-weight: normal;
-  color: #EEEEEE;
-  font-size: 3rem;
-  margin-top: 50px;
-  margin-bottom: 20px;
-}
-
-.about-me-content p {
-  font-family: 'Montserrat', sans-serif;
-  color: #FFFFFF;
-  letter-spacing: 0.07em;
-  line-height: 222%;
-}
 
 .skills-background {
   height: 100vh;
@@ -154,6 +157,50 @@ body {
 .portfolio-background-2 {
   height: 100vh;
   background-image: linear-gradient(180deg, #61C5FF 0%, #1BABFF 100%);
+}
+
+.portfolio-title {
+  margin-left: 12%;
+  margin-bottom: 100px;
+}
+
+.portfolio-content {
+  margin-right: 15%;
+  margin-left: 15%;
+  padding: 50px;
+  background-color: #0B445A;
+  border-radius: 50px;
+}
+
+.image-description {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.github-app-link {
+  padding: 15px; 
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.github-app-link img {
+  height: 8%;
+  width: 8%;
+}
+
+.github-app-link a {
+  margin-right: 30px;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+}
+
+.more-soon {
+  margin-right: 15%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .contact-me {
